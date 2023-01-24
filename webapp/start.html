@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name=viewport
+	content="width=device-width, initial-scale=1, user-scalable=0">
+<meta charset="utf-8" />
+<link rel="stylesheet" href="css/core.css">
+<title>MySNS</title>
+<style>
+.page-msg{
+	font-size:3em;
+	color: black;
+}
+.page-msg span{
+	border-bottom:1px solid black; }
+</style>
+</head>
+<body>
+	<div class="page-hdr">MySNS</div>
+	<div class="page-body">
+		<div class="page-msg" style="color:red; top:40%">MySNS</div>
+		<div class="page-msg" onclick="goHome()"><span>start</span></div>
+	</div>
+</body>
+</html>
+<script>
+function goHome() {
+	window.location.href = "login.html";
+}
+</script>
