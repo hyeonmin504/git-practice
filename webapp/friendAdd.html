@@ -98,6 +98,7 @@
 				alert("이미 추가된 친구입니다.");
 			} else {
 				alert("친구 추가가 완료되었습니다.");
+				DataCache.remove("mainCache");
 				window.location.reload();
 			}
 		});

@@ -97,7 +97,7 @@
 				alert("친구 삭제 중 오류가 발생하였습니다.");
 			} else {
 				alert("친구 삭제가 완료되었습니다.");
-				Data
+				DataCache.remove("mainCache");
 				window.location.reload();
 			}
 		});
